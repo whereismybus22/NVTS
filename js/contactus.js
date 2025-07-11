@@ -33,7 +33,7 @@ function sendContactForm(event) {
   const issue = issueSelect.options[issueSelect.selectedIndex].text;
   const description = document.getElementById("query").value.trim();
   const os = getMobileOS();
-  const college = "Sreeja International School";
+  const college = "New Victory Talent School";
   const subject = issue;
   const body = 'School : ' + college + '\n' +
                'Mobile OS : ' + os + '\n' +

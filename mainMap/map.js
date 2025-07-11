@@ -256,7 +256,7 @@ async function fetchBusLocation() {
 }
 
 function filterData(data) {
-  const mlrInstitute = data.find((entry) => entry.title === "sreejaschool@gmail.com");
+  const mlrInstitute = data.find((entry) => entry.title === "Ungrouped");
   if (!mlrInstitute) return null;
 
   const item = mlrInstitute.items.find((item) => item.id === thisRouteID);
