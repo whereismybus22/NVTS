@@ -1,6 +1,6 @@
 function openMapWithBusMiss() {
     // Assuming presentBusLocation contains the latitude and longitude of the bus or location
-    let collegeLocation = [17.174391962132304, 80.16624701534289];
+    let collegeLocation = [17.240568970299314, 80.13955003680559];
     const mapUrl = `https://www.google.com/maps/dir/?api=1&destination=${collegeLocation[0]},${collegeLocation[1]}&travelmode=transit&dir_action=navigate`;
 
     // Open Google Maps with the directions URL in a new tab or app
