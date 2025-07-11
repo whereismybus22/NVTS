@@ -397,7 +397,7 @@ fetch(path)
     var destinationMarker = L.marker(destinationLocation, {
       icon: L.icon({
         iconUrl: "../img/college.png",
-        iconSize: [32, 32],
+        iconSize: [40, 40],
         iconAnchor: [16, 32],
       }),
     }).addTo(map);
